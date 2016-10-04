@@ -3,4 +3,5 @@
     echo Hello World!
     node -v
     ls
+    ruby -v
     node GoogleSearch.js
