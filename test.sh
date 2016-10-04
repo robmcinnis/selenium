@@ -5,5 +5,8 @@
     npm install selenium-webdriver
     npm install chromedriver
     node -v
-    ls
     ruby -v
+    ls
+    cd /automated-tests/
+    ls
+    node GoogleSearch.js
