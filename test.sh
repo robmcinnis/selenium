@@ -7,6 +7,4 @@
     node -v
     ruby -v
     ls
-    cd /automated-tests/
-    ls
     node GoogleSearch.js
