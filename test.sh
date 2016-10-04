@@ -6,3 +6,4 @@
     npm install chromedriver
     node -v
     ls
+    ruby -v
