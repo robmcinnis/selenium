@@ -4,4 +4,5 @@
     node -v
     ls
     ruby -v
+    echo $PATH
     node GoogleSearch.js
