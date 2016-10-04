@@ -5,3 +5,4 @@
     npm install selenium-webdriver
     npm install chromedriver
     node -v
+    ls
