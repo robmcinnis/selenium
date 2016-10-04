@@ -3,4 +3,5 @@
       echo Hello World!
       node -v
       ls
+      gem install selenium-webdriver
       node GoogleSearch.js
