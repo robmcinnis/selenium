@@ -1,6 +1,6 @@
 #!/bin/bash
 # A sample Bash script, by Rob
 echo Hello World!
-npm install selenium-webdriver
+#npm install selenium-webdriver
 node -v
 node GoogleSearch.js
