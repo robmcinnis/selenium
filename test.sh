@@ -3,6 +3,9 @@
       echo Hello World!
       node -v
       ls
-      npm install selenium-webdriver
-      npm install wd-sync
-      node GoogleSearch.js
+      cd ..
+      ls
+      
+      #npm install selenium-webdriver
+      #npm install wd-sync
+      #node GoogleSearch.js
