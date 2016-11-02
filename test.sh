@@ -2,7 +2,7 @@
       # A sample Bash script, by Rob
       echo Starting Automated Tests!
       
-      cd /automated-tests/
+      cd automated-tests/
       casperjs test kaltire-homepage.js
       casperjs test kaltire-global-search.js
       casperjs test kaltire-tire-selector.js
