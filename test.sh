@@ -3,6 +3,7 @@
       echo Starting Automated Tests!
       
       cd automated-tests/
+      ls
       casperjs test kaltire-homepage.js
       casperjs test kaltire-global-search.js
       casperjs test kaltire-tire-selector.js
