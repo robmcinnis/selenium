@@ -1,6 +1,10 @@
      #!/bin/bash
       # A sample Bash script, by Rob
       echo Starting Automated Tests!
+      
+      casperjs test kaltire-homepage.js
+      casperjs test kaltire-global-search.js
+      casperjs test kaltire-tire-selector.js
       casperjs test kaltire-homepage-location.js
       
       #npm install selenium-webdriver
