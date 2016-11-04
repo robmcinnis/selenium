@@ -3,7 +3,7 @@
       echo This is where our automated tests would go, maybe.
  
       #ls
-      #cd ~/src/github.com/iamota/iamota-components/automated-tests/
+      cd ~/src/github.com/iamota/iamota-components/automated-tests/
       #ls
       #Update versions of PhantomJs and CasperJs
       #npm install phantomjs@2.1 -g
@@ -16,10 +16,10 @@
       #casperjs test kaltire-homepage-location.js
       
       #Install packages to run Selenium Webdriver
-      #npm install selenium-webdriver
-      #nvm install 5.6
+      npm install selenium-webdriver
+      nvm install 5.6
       #gem install selenium-webdriver
       #npm install wd-sync
       
       #We would put any Selenium Webdriver tests here
-      #node GoogleSearch.js
+      node selenium-example.js
