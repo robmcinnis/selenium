@@ -7,15 +7,15 @@
 
 set -e
 
-if [ -z "$1" ]; then
-  echo "Please provide a proper firefox version like 50"
-  exit 1
-fi
+#if [ -z "$1" ]; then
+#  echo "Please provide a proper firefox version like 50"
+#  exit 1
+#fi
 
 pushd ~/ > /dev/null
 rm -fr firefox
 
-firefox_file=firefox-50.0.2.tar.bz2
+#firefox_file=firefox-50.0.2.tar.bz2
 cache_path=~/cache/$firefox_file
 
 #download_url=http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/$1.0/linux-x86_64/en-US/$firefox_file
