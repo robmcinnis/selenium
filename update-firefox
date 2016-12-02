@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Add the following commands to your setup commands to update firefox
+# git clone https://gist.github.com/9525133.git update_firefox
+# bash ./update_firefox/update_firefox 50
+# firefox --version
+
+set -e
+
+if [ -z "$1" ]; then
+  echo "Please provide a proper firefox version like 50"
+  exit 1
+fi
+
+pushd ~/ > /dev/null
+rm -fr firefox
+
+firefox_file=firefox-$1.0.tar.bz2
+cache_path=~/cache/$firefox_file
+
+#download_url=http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/$1.0/linux-x86_64/en-US/$firefox_file
+download_url=https://download.mozilla.org/?product=firefox-50.0.2-SSL&os=linux64&lang=en-US
+
+curl -I -f $download_url
+
+if [ ! -f $cache_path ]; then
+  wget $download_url -O $cache_path
+fi
+
+tar -jxf $cache_path
+firefox --version
+
+popd > /dev/null
