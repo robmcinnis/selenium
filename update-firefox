@@ -7,10 +7,7 @@
 
 set -e
 
-#if [ -z "$1" ]; then
-#  echo "Please provide a proper firefox version like 50"
-#  exit 1
-#fi
+
 
 pushd ~/ > /dev/null
 rm -fr firefox
